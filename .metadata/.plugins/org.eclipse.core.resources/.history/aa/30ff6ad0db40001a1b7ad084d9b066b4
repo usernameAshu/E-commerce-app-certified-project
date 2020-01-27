@@ -1,0 +1,10 @@
+package com.edureka.orderms.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "order_data")
+public class OrderDetails {
+
+}

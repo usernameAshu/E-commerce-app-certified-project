@@ -1,0 +1,5 @@
+package com.edureka.orderms.model;
+
+public class Customer {
+
+}
