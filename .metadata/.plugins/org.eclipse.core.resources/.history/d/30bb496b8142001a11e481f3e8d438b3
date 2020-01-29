@@ -1,0 +1,5 @@
+package com.edureka.stockms.service;
+
+public class StockService {
+
+}

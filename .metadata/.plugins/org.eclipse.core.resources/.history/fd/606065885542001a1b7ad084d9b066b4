@@ -1,0 +1,54 @@
+package com.edureka.orderms.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "order_data")
+public class OrderDetails {
+
+	@Id
+	private Long orderId;
+
+	private Customer customer;
+	private Date ordered;
+	private String status;
+
+	public Long getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(Long orderId) {
+		this.orderId = orderId;
+	}
+
+	@ManyToOne
+	public Customer getCustomer() {
+		return customer;
+	}
+
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+
+	public Date getOrdered() {
+		return ordered;
+	}
+
+	public void setOrdered(Date ordered) {
+		this.ordered = ordered;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+}
