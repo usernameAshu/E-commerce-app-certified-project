@@ -124,6 +124,6 @@ public class OrderRepositoryTest {
 			System.out.println(orders);
 			}
 		
-		assertThat(arrayList.size()).isEqualTo(7);
+		assertThat(arrayList.size()).isEqualTo(8);
 	}
 }
