@@ -1,0 +1,19 @@
+package com.edureka.orderms.service;
+
+import java.util.List;
+
+import org.springframework.util.MultiValueMap;
+
+import com.edureka.orderms.model.OrderDetails;
+
+public interface OrderServiceInterface {
+
+	List<OrderDetails> findAll();
+
+	OrderDetails findById(Long orderId);
+
+	MultiValueMap<String, String> save(OrderDetails orderToUpdate);
+
+	void deleteById(Long orderId);
+
+}

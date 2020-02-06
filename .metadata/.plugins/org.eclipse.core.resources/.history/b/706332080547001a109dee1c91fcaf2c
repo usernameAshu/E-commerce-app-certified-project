@@ -1,0 +1,17 @@
+package com.edureka.orderms.service;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+
+import com.edureka.orderms.model.OrderDetails;
+
+public interface OrderServiceInterface {
+
+	public ResponseEntity<List<OrderDetails>> getUsers() ;
+	public ResponseEntity<OrderDetails> getOrder(Long orderId) ;
+	public ResponseEntity<OrderDetails> createuser(OrderDetails orderDetails);
+	public ResponseEntity<Object> updateUser(Long orderId, OrderDetails orderDetails);
+	
+
+}

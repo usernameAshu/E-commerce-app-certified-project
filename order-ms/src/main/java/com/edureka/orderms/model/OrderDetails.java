@@ -11,6 +11,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @Table(name = "order_data")
 public class OrderDetails {
@@ -21,12 +23,23 @@ public class OrderDetails {
 	private Long orderId;
 
 	@ManyToOne
-	@JoinColumn(name = "CUSTOMER_ID")
+	@JoinColumn(name = "customerid" , insertable = false , updatable = false)
 	private Customer customer;
-	
+
+	//@Column(name ="customerid")
+	private Long customerid;
+
+	public Long getCustomerid() {
+		return customerid;
+	}
+
+	public void setCustomerid(Long customerid) {
+		this.customerid = customerid;
+	}
+
 	@Column(name = "order_date")
 	private Date orderDate;
-	
+
 	@Column(name = "order_status")
 	private String status;
 
@@ -38,7 +51,7 @@ public class OrderDetails {
 		this.orderId = orderId;
 	}
 
-	
+	@JsonBackReference
 	public Customer getCustomer() {
 		return customer;
 	}
@@ -47,12 +60,12 @@ public class OrderDetails {
 		this.customer = customer;
 	}
 
-	public Date getOrdered() {
+	public Date getOrderDate() {
 		return orderDate;
 	}
 
-	public void setOrdered(Date ordered) {
-		this.orderDate = ordered;
+	public void setOrderDate(Date orderDate) {
+		this.orderDate = orderDate;
 	}
 
 	public String getStatus() {

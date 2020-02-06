@@ -11,6 +11,12 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 @Entity
 @Table(name="customer_data")
 public class Customer {
@@ -31,7 +37,10 @@ public class Customer {
 	@Column(name="Password")
 	private String password;
 	
-	@OneToMany(cascade = CascadeType.ALL, targetEntity = OrderDetails.class, mappedBy = "customer" , fetch = FetchType.LAZY)
+	@OneToMany(cascade = CascadeType.ALL, 
+			targetEntity = OrderDetails.class,
+			mappedBy = "customer" ,
+			fetch = FetchType.LAZY)
 	private List<OrderDetails> orders = new ArrayList<>();
 
 
@@ -85,6 +94,7 @@ public class Customer {
 	}
 
 	
+	@JsonManagedReference
 	public List<OrderDetails> getOrders() {
 		return orders;
 	}

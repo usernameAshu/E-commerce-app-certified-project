@@ -1,0 +1,9 @@
+package com.edureka.orderms.service;
+
+import com.edureka.orderms.model.OrderDetails;
+
+public interface OrderServiceInterface {
+
+	OrderDetails findAll();
+
+}

@@ -1,0 +1,5 @@
+package com.edureka.orderms.service;
+
+public class CustomerServiceInterface {
+
+}
