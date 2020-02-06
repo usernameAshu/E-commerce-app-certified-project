@@ -31,7 +31,7 @@ public class OrderServiceImpl implements OrderServiceInterface {
 	 * READ by order id
 	 */
 	@Override
-	public ResponseEntity<OrderDetails> getOrder(Long orderId) {
+	public ResponseEntity<OrderDetails> getOrderById(Long orderId) {
 
 		if (orderRepository.findById(orderId).isPresent())
 			return new ResponseEntity<>(orderRepository.findById(orderId).get(), HttpStatus.OK);
@@ -69,7 +69,7 @@ public class OrderServiceImpl implements OrderServiceInterface {
 	 */
 
 	@Override
-	public ResponseEntity<String> deleteOrder(Long orderId) {
+	public ResponseEntity<String> deleteOrderById(Long orderId) {
 
 		orderRepository.deleteById(orderId);
 		return new ResponseEntity<>("Record Deleted", HttpStatus.OK);

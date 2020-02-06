@@ -1,0 +1,40 @@
+package com.edureka.orderms.service;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+public class OrderServiceImplTest {
+
+	@Test
+	public void testGetOrders() {
+		
+		
+		
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetOrder() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCreateOrder() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testUpdateOrder() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDeleteOrder() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -9,9 +9,9 @@ import com.edureka.orderms.model.OrderDetails;
 public interface OrderServiceInterface {
 
 	public ResponseEntity<List<OrderDetails>> getOrders() ;
-	public ResponseEntity<OrderDetails> getOrder(Long orderId) ;
+	public ResponseEntity<OrderDetails> getOrderById(Long orderId) ;
 	public ResponseEntity<OrderDetails> createOrder(OrderDetails orderDetails);
 	public ResponseEntity<Object> updateOrder(Long orderId, OrderDetails orderDetails);
-	public ResponseEntity<String> deleteOrder(Long orderId);
+	public ResponseEntity<String> deleteOrderById(Long orderId);
 
 }

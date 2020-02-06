@@ -50,7 +50,7 @@ public class OrderController {
  })
  public ResponseEntity < OrderDetails > getOrderById(@PathVariable Long orderId) {
 
-  return orderService.getOrder(orderId);
+  return orderService.getOrderById(orderId);
  }
 
  /*
@@ -91,7 +91,7 @@ public class OrderController {
 
  @DeleteMapping(path = "/{orderId}")
  public ResponseEntity < String > deleteOrderById(@PathVariable Long orderId) {
-  return orderService.deleteOrder(orderId);
+  return orderService.deleteOrderById(orderId);
  }
 
 }
