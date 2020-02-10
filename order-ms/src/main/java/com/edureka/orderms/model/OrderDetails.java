@@ -23,7 +23,7 @@ public class OrderDetails {
 	private Long orderId;
 
 	@ManyToOne
-	@JoinColumn(name = "customerid" , insertable = false , updatable = false)
+	@JoinColumn(name = "customerid" , insertable = false , updatable = false , nullable = true)
 	private Customer customer;
 
 	//@Column(name ="customerid")

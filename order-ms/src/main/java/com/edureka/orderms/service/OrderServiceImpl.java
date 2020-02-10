@@ -52,18 +52,18 @@ public class OrderServiceImpl implements OrderServiceInterface {
 	}
 
 	/*
-	 * PUT operation for order update if not found throw OrderNotFoundException 
+	 * PUT operation for order update if not found throw OrderNotFoundException
 	 */
 
 	@Override
 	public ResponseEntity<Object> updateOrder(Long orderId, @Valid OrderDetails orderDetails) {
 		OrderDetails orderToUpdate = orderRepository.findById(orderId)
-				.orElseThrow(() -> new OrderNotFoundException("Order Doesn't Exists , please create an Order"));
+	    .orElseThrow(() -> new OrderNotFoundException("Order Doesn't Exists , please create an Order"));
 
 		return new ResponseEntity<>(orderRepository.save(orderDetails), HttpStatus.OK);
 
 	}
-	
+
 	/*
 	 * DELETE operation for Order
 	 */

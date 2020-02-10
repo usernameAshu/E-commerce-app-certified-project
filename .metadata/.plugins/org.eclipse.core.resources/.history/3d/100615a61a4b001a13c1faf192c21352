@@ -1,0 +1,10 @@
+package com.edureka.stockms.models;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "item_details")
+public class ItemDetails {
+
+}

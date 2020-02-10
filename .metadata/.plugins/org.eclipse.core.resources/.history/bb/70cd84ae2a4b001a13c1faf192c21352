@@ -1,0 +1,22 @@
+package com.edureka.stockms.resources;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.edureka.stockms.models.ItemDetails;
+import com.edureka.stockms.service.StockServiceInterface;
+
+@RequestMapping(path ="/stocks")
+public class StockController {
+	
+	@Autowired
+	private StockServiceInterface serviceInterface;
+	
+	public ResponseEntity<ItemDetails> getAllStocks() {
+		
+		
+		
+	}
+
+}

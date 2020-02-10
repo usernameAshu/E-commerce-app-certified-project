@@ -1,0 +1,7 @@
+package com.edureka.stockms.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StockRepository extends JpaRepository<T, ID> {
+
+}

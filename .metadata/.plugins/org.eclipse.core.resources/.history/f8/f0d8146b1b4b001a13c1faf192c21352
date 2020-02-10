@@ -1,0 +1,23 @@
+package com.edureka.stockms.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.edureka.stockms.models.ItemDetails;
+import com.edureka.stockms.repository.StockRepository;
+
+@Service
+public class StockService {
+
+	@Autowired
+	private StockRepository stockRepository ;
+	
+	
+	public ResponseEntity<ItemDetails> getAllStocks() {
+		
+		return null;
+	}
+	
+	
+}
