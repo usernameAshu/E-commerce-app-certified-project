@@ -1,0 +1,5 @@
+package com.edureka.userms.controller;
+
+public class UserController {
+
+}

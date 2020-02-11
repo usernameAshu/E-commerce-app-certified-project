@@ -3251,3 +3251,237 @@
 2020-02-09 16:56:29,453 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-02-09 16:56:29,455 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-02-09 16:56:29,455 [Worker-499: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:01:14,684 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:01:14,684 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:01:14,684 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:01:14,687 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:01:14,687 [Worker-563: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:01:17,521 [Worker-566: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:01:17,521 [Worker-566: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:01:17,521 [Worker-566: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:01:17,527 [Worker-566: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:01:17,527 [Worker-566: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:09:14,544 [Worker-571: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:09:14,544 [Worker-571: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:09:14,546 [Worker-571: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:09:14,548 [Worker-571: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:09:14,548 [Worker-571: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:10:12,253 [Worker-560: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:stock-ms:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\pom.xml.
+2020-02-11 10:10:21,091 [Worker-560: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:10:21,091 [Worker-560: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:10:21,091 [Worker-560: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:10:21,093 [Worker-560: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:10:21,093 [Worker-560: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:10:22,807 [Worker-570: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:10:22,808 [Worker-570: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:10:22,810 [Worker-570: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:10:22,820 [Worker-570: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:10:22,820 [Worker-570: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:12:34,185 [Worker-571: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-11 10:12:35,309 [Worker-571: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:eureka-server:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\eureka-server\pom.xml.
+2020-02-11 10:12:36,324 [Worker-571: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:order-ms:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\order-ms\pom.xml.
+2020-02-11 10:12:36,616 [Worker-571: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:stock-ms:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\pom.xml.
+2020-02-11 10:12:39,517 [Worker-571: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /stock-ms/src/main/java
+2020-02-11 10:12:39,517 [Worker-571: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /stock-ms/src/main/resources
+2020-02-11 10:12:39,518 [Worker-571: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /stock-ms/src/main/resources
+2020-02-11 10:12:39,518 [Worker-571: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /stock-ms/src/test/java
+2020-02-11 10:12:40,513 [Worker-571: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2020-02-11 10:12:41,956 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:12:41,961 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:12:41,961 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:12:41,963 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:12:41,963 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\eureka-server\src\test\resources
+2020-02-11 10:12:42,491 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:12:42,491 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:12:42,491 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:12:42,493 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:12:42,493 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:12:43,712 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:12:43,712 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:12:43,725 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:12:43,742 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:12:43,742 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:18:20,944 [Worker-585: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:18:20,945 [Worker-585: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:18:20,948 [Worker-585: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:18:20,951 [Worker-585: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:18:20,951 [Worker-585: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:20:38,811 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:20:38,811 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:20:38,811 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:20:38,814 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:20:38,814 [Worker-583: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:22:40,939 [Worker-589: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:22:40,939 [Worker-589: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:22:40,939 [Worker-589: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:22:40,942 [Worker-589: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:22:40,942 [Worker-589: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:23:36,446 [Worker-588: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:23:36,447 [Worker-588: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:23:36,447 [Worker-588: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:23:36,451 [Worker-588: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:23:36,451 [Worker-588: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\stock-ms\src\test\resources
+2020-02-11 10:50:03,279 [Worker-596: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:50:03,280 [Worker-596: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:50:03,281 [Worker-596: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:50:03,283 [Worker-596: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:50:03,283 [Worker-596: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 10:51:08,353 [Worker-600: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:51:08,353 [Worker-600: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 10:51:08,353 [Worker-600: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 10:51:08,355 [Worker-600: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 10:51:08,355 [Worker-600: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:21:24,915 [Worker-608: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:21:24,916 [Worker-608: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:21:24,917 [Worker-608: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:21:24,920 [Worker-608: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:21:24,920 [Worker-608: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:21:34,630 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:21:34,630 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:21:34,631 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:21:34,633 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:21:34,633 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:21:43,065 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:21:43,066 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:21:43,067 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:21:43,069 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:21:43,069 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:23:04,493 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:23:04,494 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:23:04,495 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:23:04,498 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:23:04,498 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:23:15,293 [Worker-599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:23:15,294 [Worker-599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:23:15,294 [Worker-599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:23:15,295 [Worker-599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:23:15,295 [Worker-599: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:23:48,790 [Worker-609: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:23:48,791 [Worker-609: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:23:48,791 [Worker-609: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:23:48,795 [Worker-609: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:23:48,795 [Worker-609: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:24:08,169 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:24:08,170 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:24:08,170 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:24:08,171 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:24:08,171 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:24:28,943 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:24:28,944 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:24:28,944 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:24:28,946 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:24:28,946 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:24:50,668 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:24:50,668 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:24:50,669 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:24:50,671 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:24:50,671 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:25:46,619 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:25:46,619 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:25:46,620 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:25:46,622 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:25:46,622 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:26:26,084 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:26:26,084 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:26:26,085 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:26:26,086 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:26:26,086 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:26:41,588 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:26:41,589 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:26:41,589 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:26:41,591 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:26:41,591 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:26:47,538 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:26:47,539 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:26:47,541 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:26:47,544 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:26:47,544 [Worker-607: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:27:22,149 [Worker-604: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:user-ms:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\pom.xml.
+2020-02-11 11:27:23,691 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:27:23,692 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:27:23,692 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:27:23,694 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:27:23,694 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:27:24,952 [Worker-610: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:user-ms:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\pom.xml.
+2020-02-11 11:27:25,780 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:27:25,780 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:27:25,781 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:27:25,782 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:27:25,782 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:27:37,075 [Worker-607: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-11 11:27:37,290 [Worker-607: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.edureka:user-ms:0.0.1-SNAPSHOT @ E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\pom.xml.
+2020-02-11 11:27:37,838 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-ms/src/main/java
+2020-02-11 11:27:37,838 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-ms/src/main/resources
+2020-02-11 11:27:37,838 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-ms/src/main/resources
+2020-02-11 11:27:37,839 [Worker-607: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-ms/src/test/java
+2020-02-11 11:27:38,252 [Worker-607: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-02-11 11:27:39,120 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:27:39,121 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:27:39,122 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:27:39,123 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:27:39,123 [Worker-610: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:28:30,871 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:28:30,871 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:28:30,873 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:28:30,874 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:28:30,875 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:28:41,673 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:28:41,673 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:28:41,677 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:28:41,680 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:28:41,680 [Worker-612: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:29:20,421 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:29:20,421 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:29:20,423 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:29:20,425 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:29:20,425 [Worker-604: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:47:07,191 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:07,191 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:47:07,198 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:47:07,200 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:07,200 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:47:10,770 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:10,771 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:47:10,772 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:47:10,773 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:10,773 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:47:22,511 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:22,512 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:47:22,514 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:47:22,515 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:22,515 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:47:23,558 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:23,559 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:47:23,560 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:47:23,562 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:47:23,562 [Worker-620: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 11:59:20,553 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:59:20,554 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 11:59:20,559 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 11:59:20,561 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 11:59:20,562 [Worker-617: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 12:02:18,602 [Worker-623: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:18,602 [Worker-623: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 12:02:18,603 [Worker-623: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 12:02:18,605 [Worker-623: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:18,605 [Worker-623: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 12:02:23,710 [Worker-629: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:23,711 [Worker-629: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 12:02:23,711 [Worker-629: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 12:02:23,718 [Worker-629: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:23,718 [Worker-629: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 12:02:42,873 [Worker-631: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:42,873 [Worker-631: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 12:02:42,874 [Worker-631: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 12:02:42,880 [Worker-631: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:42,880 [Worker-631: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 12:02:53,962 [Worker-623: Launching user-ms - UserMsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:53,962 [Worker-623: Launching user-ms - UserMsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-11 12:02:53,962 [Worker-623: Launching user-ms - UserMsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 12:02:53,966 [Worker-623: Launching user-ms - UserMsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:02:53,966 [Worker-623: Launching user-ms - UserMsApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources
+2020-02-11 12:03:41,739 [Worker-630: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:03:41,740 [Worker-630: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 12:03:41,745 [Worker-630: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-11 12:03:41,746 [Worker-630: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-11 12:03:41,746 [Worker-630: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Edureka_Microservice_Training\E-commerce-app-certified-project\user-ms\src\test\resources

@@ -1,0 +1,5 @@
+package com.edureka.userms.models;
+
+public class UserDetails {
+
+}

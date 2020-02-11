@@ -1,0 +1,14 @@
+package com.edureka.userms.models;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "user_details")
+public class UserDetails {
+
+	private Long userId;
+	private String userName;
+	private String userRole ;
+	
+}

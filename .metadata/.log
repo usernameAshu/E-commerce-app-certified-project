@@ -7030,3 +7030,155 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 10:12:40.040
 !MESSAGE executing callback sts4.classpath.ICSHAFKl SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-02-11 11:20:09.055
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.814
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.823
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.832
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.840
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.855
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.867
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.893
+!MESSAGE buffering callback sts4.classpath.ICSHAFKl user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.902
+!MESSAGE buffering callback sts4.classpath.ZxYBGLGN user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.917
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.927
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.935
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:23.951
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.009
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.137
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.180
+!MESSAGE buffering callback sts4.classpath.ICSHAFKl user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.200
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.215
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.239
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.263
+!MESSAGE buffering callback sts4.classpath.ZxYBGLGN user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.289
+!MESSAGE buffering callback sts4.classpath.ICSHAFKl user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.347
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.384
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.500
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.521
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.536
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.550
+!MESSAGE buffering callback sts4.classpath.ZxYBGLGN user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.559
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.566
+!MESSAGE Preparing classpath changed notification user-ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.575
+!MESSAGE buffering callback sts4.classpath.ICSHAFKl user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.584
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.674
+!MESSAGE executing callback sts4.classpath.ICSHAFKl 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.730
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.751
+!MESSAGE buffering callback sts4.classpath.ZxYBGLGN user-ms false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.760
+!MESSAGE executing callback sts4.classpath.ZxYBGLGN 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:24.852
+!MESSAGE executing callback sts4.classpath.ZxYBGLGN FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-02-11 11:27:24.871
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.ZxYBGLGN'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 11:27:25.805
+!MESSAGE executing callback sts4.classpath.ICSHAFKl SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 4 0 2020-02-11 12:03:27.711
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getMethods(BinaryTypeBinding.java:1345)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.setMethodBindings(AnnotationBinding.java:234)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createAnnotation(LookupEnvironment.java:993)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.buildRetentionAnnotation(AnnotationBinding.java:126)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.addStandardAnnotations(AnnotationBinding.java:81)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.retrieveAnnotations(BinaryTypeBinding.java:1691)
+	at org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.getAnnotations(ReferenceBinding.java:1052)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:122)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getAnnotations(JavadocHover.java:1192)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.addAnnotations(JavadocHover.java:1149)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
