@@ -34,11 +34,11 @@ public class StockController {
 		return serviceInterface.getStockForItem(itemId);
 	}
 	
-	/*
-	 * @GetMapping(path= "/{itemId}" , produces = {MediaType.APPLICATION_JSON_VALUE
-	 * , MediaType.APPLICATION_XML_VALUE}) public ResponseEntity<Integer>
-	 * getAvailStock(@PathVariable Long itemId) { return
-	 * serviceInterface.getAvailStock(itemId); }
-	 */
+	@GetMapping(path= "/{itemId}"  ,
+			produces = {MediaType.APPLICATION_JSON_VALUE , 
+						MediaType.APPLICATION_XML_VALUE})
+	public ResponseEntity<Integer> getAvailStock(@PathVariable Long itemId) {
+		return serviceInterface.getAvailStock(itemId);
+	}
 
 }

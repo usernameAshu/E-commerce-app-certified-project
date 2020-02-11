@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderRepositoryTest" project="order-ms" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.edureka.orderms.repository.OrderRepositoryTest" time="1.0">
+    <testcase name="testgetOrders" classname="com.edureka.orderms.repository.OrderRepositoryTest" time="0.94"/>
+    <testcase name="testgetOrderById" classname="com.edureka.orderms.repository.OrderRepositoryTest" time="0.01"/>
+    <testcase name="testdeleteOrderById" classname="com.edureka.orderms.repository.OrderRepositoryTest" time="0.031"/>
+    <testcase name="testupdateOrder" classname="com.edureka.orderms.repository.OrderRepositoryTest" time="0.011"/>
+    <testcase name="testcreateOrder" classname="com.edureka.orderms.repository.OrderRepositoryTest" time="0.008"/>
+  </testsuite>
+</testrun>
