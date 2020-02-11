@@ -2,6 +2,8 @@ package com.edureka.stockms.resources;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -20,9 +22,11 @@ public class StockController {
 	@Autowired
 	private StockServiceInterface serviceInterface;
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(StockController.class);
+	
 	@GetMapping
 	public ResponseEntity<List<ItemDetails>> getAllStocks() {
-
+		LOGGER.info("Fetching Stocks from service layer");
 		return serviceInterface.getAllStocks();
 
 	}
@@ -31,6 +35,7 @@ public class StockController {
 			produces = {MediaType.APPLICATION_JSON_VALUE , 
 						MediaType.APPLICATION_XML_VALUE})
 	public ResponseEntity<ItemDetails> getStockForItem(@PathVariable Long itemId) {
+		LOGGER.info("Fetching Stocks from service layer for item level");
 		return serviceInterface.getStockForItem(itemId);
 	}
 	

@@ -2,6 +2,8 @@ package com.edureka.orderms.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,14 +22,17 @@ public class CustomerController {
 	@Autowired
 	CustomerServiceInterface customerService ;
 	
+	private static final Logger LOGGER = LoggerFactory.getLogger(CustomerController.class);
+	
 	@GetMapping
 	public ResponseEntity<List<Customer>> getCustomers() {
+		LOGGER.info("Getting All Customers from Service class");
 		return customerService.getCustomers();
 	}
 	
 	@GetMapping(path ="/{customerId}/orders")
 	public ResponseEntity<List<OrderDetails>> getOrdersForCustomer(@PathVariable Long customerId) {
-		
+		LOGGER.info("Getting customer by ID from Service class");
 		return customerService.getOrdersForCustomer(customerId);
 	}
 
