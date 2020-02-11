@@ -17,16 +17,13 @@ public class UserDetails {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long userId;
 
-
-
 	@Column(name = "user_name")
 	private String userName;
 
 //	@Transient
 	@Column(name = "password")
 	private String password;
-	
-	
+
 	@Column(name = "user_role")
 	private String userRole;
 
