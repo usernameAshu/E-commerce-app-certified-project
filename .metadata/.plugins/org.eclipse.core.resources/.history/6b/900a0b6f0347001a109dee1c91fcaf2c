@@ -1,5 +1,0 @@
-package com.edureka.orderms.service;
-
-public interface OrderServiceInterface {
-
-}

@@ -7,8 +7,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
 @Table(name = "item_details")
+@Data
+@NoArgsConstructor
 public class ItemDetails {
 
 	@Id
@@ -31,52 +36,5 @@ public class ItemDetails {
 	@Column(name = "reserved_stock")
 	private int reservedStock;
 
-	public Long getItemId() {
-		return itemId;
-	}
-
-	public void setItemId(Long itemId) {
-		this.itemId = itemId;
-	}
-
-	public String getItemName() {
-		return itemName;
-	}
-
-	public void setItemName(String itemName) {
-		this.itemName = itemName;
-	}
-
-	public String getItemDesc() {
-		return itemDesc;
-	}
-
-	public void setItemDesc(String itemDesc) {
-		this.itemDesc = itemDesc;
-	}
-
-	public int getPhysicalStock() {
-		return physicalStock;
-	}
-
-	public void setPhysicalStock(int physicalStock) {
-		this.physicalStock = physicalStock;
-	}
-
-	public int getAvailableStock() {
-		return availableStock;
-	}
-
-	public void setAvailableStock(int availableStock) {
-		this.availableStock = availableStock;
-	}
-
-	public int getReservedStock() {
-		return reservedStock;
-	}
-
-	public void setReservedStock(int reservedStock) {
-		this.reservedStock = reservedStock;
-	}
-
+	
 }

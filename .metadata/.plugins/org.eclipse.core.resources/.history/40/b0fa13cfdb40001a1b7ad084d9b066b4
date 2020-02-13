@@ -1,9 +1,0 @@
-package com.edureka.orderms.model;
-
-import javax.persistence.Entity;
-
-@Entity
-
-public class OrderDetails {
-
-}

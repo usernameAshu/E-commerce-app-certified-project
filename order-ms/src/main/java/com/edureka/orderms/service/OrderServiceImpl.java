@@ -17,7 +17,7 @@ import com.edureka.orderms.model.OrderDetails;
 import com.edureka.orderms.repository.OrderRepository;
 
 @Service
-public class OrderServiceImpl implements OrderServiceInterface {
+public class OrderServiceImpl implements OrderService {
 
 	@Autowired
 	private OrderRepository orderRepository;
@@ -38,7 +38,7 @@ public class OrderServiceImpl implements OrderServiceInterface {
 	 */
 	@Override
 	public ResponseEntity<OrderDetails> getOrderById(Long orderId) {
-
+		
 		LOGGER.info("Getting Customers by id from Database class");
 		if (orderRepository.findById(orderId).isPresent())
 			return new ResponseEntity<>(orderRepository.findById(orderId).get(), HttpStatus.OK);

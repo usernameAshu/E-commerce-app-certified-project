@@ -1,3 +1,0 @@
-#App configuration
-spring.application.name=order-ms
-server.port=8081

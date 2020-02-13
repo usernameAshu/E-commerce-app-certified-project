@@ -1,6 +1,0 @@
-
-usquid:S1854<"ARemove this useless assignment to local variable "orderToUpdate".(÷Íôú8€é.HñRMAJORZ
-CODE_SMELL
-dsquid:S3655%"7Call "Optional#isPresent()" before accessing the value.(›Ï³8åŠ»ó€.HÌRMAJORZBUG
-fsquid:S1481<"2Remove this unused "orderToUpdate" local variable.(÷Íôú8€é.HòRMINORZ
-CODE_SMELL

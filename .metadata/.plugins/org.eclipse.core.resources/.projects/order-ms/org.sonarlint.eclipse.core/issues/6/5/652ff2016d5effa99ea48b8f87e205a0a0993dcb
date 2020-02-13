@@ -1,9 +1,0 @@
-
-‘squid:UselessImportCheck"PRemove this unused import 'com.fasterxml.jackson.annotation.ObjectIdGenerators'.(èîí8¥‰Ëõ€.HŠRMINORZ
-CODE_SMELL
-•squid:UselessImportCheck"ORemove this unused import 'com.fasterxml.jackson.annotation.JsonBackReference'.(»Ôœ¿ıÿÿÿÿ8¶¿Ëõ€.HRMINORZ
-CODE_SMELL
-‰squid:UselessImportCheck"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(ş‘‹„8Æ¸œö€.H¢RMINORZ
-CODE_SMELL
-squid:UselessImportCheck"NRemove this unused import 'com.fasterxml.jackson.annotation.JsonIdentityInfo'.(—éÑğ8¥‰Ëõ€.H‰RMINORZ
-CODE_SMELL

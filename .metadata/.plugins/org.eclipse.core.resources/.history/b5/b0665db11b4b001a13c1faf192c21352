@@ -1,5 +1,0 @@
-package com.edureka.stockms.service;
-
-public interface StockServiceInterface {
-
-}

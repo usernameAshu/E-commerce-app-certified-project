@@ -29,7 +29,7 @@ import com.edureka.orderms.repository.OrderRepository;
 public class OrderServiceImplTest {
 
 	@Autowired
-	private OrderServiceInterface orderServiceInterface;
+	private OrderService orderServiceInterface;
 
 	@MockBean
 	private OrderRepository orderRepository;

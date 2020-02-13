@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="OrderServiceImplTest" project="order-ms" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="com.edureka.orderms.service.OrderServiceImplTest" time="0.128">
-    <testcase name="testDeleteOrder" classname="com.edureka.orderms.service.OrderServiceImplTest" time="0.011"/>
-    <testcase name="testUpdateOrder" classname="com.edureka.orderms.service.OrderServiceImplTest" time="0.005"/>
-    <testcase name="testCreateOrder" classname="com.edureka.orderms.service.OrderServiceImplTest" time="0.103"/>
-    <testcase name="testgetOrderById" classname="com.edureka.orderms.service.OrderServiceImplTest" time="0.005"/>
-    <testcase name="testGetOrders" classname="com.edureka.orderms.service.OrderServiceImplTest" time="0.004"/>
-  </testsuite>
-</testrun>

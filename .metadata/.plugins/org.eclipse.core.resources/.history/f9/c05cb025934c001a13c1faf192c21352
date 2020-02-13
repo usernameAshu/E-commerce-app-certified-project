@@ -1,5 +1,0 @@
-package com.edureka.userms.service;
-
-public class UserServiceImpl implements UserServiceInterface {
-
-}

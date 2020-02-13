@@ -6,10 +6,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.Transient;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "user_details")
+@Data
+@NoArgsConstructor
 public class UserDetails {
 
 	@Id
@@ -30,44 +34,5 @@ public class UserDetails {
 	@Column(name = "active_status")
 	private boolean activeStatus;
 
-	public boolean isActiveStatus() {
-		return activeStatus;
-	}
-
-	public void setActiveStatus(boolean activeStatus) {
-		this.activeStatus = activeStatus;
-	}
-
-	public Long getUserId() {
-		return userId;
-	}
-
-	public void setUserId(Long userId) {
-		this.userId = userId;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getUserName() {
-		return userName;
-	}
-
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-
-	public String getUserRole() {
-		return userRole;
-	}
-
-	public void setUserRole(String userRole) {
-		this.userRole = userRole;
-	}
-
+	
 }

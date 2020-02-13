@@ -1,8 +1,0 @@
-package com.edureka.stockms.resources;
-
-import org.springframework.web.bind.annotation.RequestMapping;
-
-@RequestMapping(path ="/stocks")
-public class StockController {
-
-}

@@ -11,7 +11,7 @@ import com.edureka.stockms.models.ItemDetails;
 import com.edureka.stockms.repository.StockRepository;
 
 @Service
-public class StockServiceImpl implements StockServiceInterface {
+public class StockServiceImpl implements StockService {
 
 	@Autowired
 	private StockRepository stockRepository;
