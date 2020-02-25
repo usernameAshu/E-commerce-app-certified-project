@@ -25,7 +25,7 @@ public class CustomerController {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(CustomerController.class);
 	
-	@CrossOrigin(origins = "*")
+	@CrossOrigin(origins = "*")	
 	@GetMapping
 	public ResponseEntity<List<Customer>> getCustomers() {
 		LOGGER.info("Getting All Customers from Service class");

@@ -28,8 +28,8 @@ import com.edureka.orderms.service.OrderService;
 @RequestMapping(path = "/orders")
 public class OrderController {
 
-	@Value("${server.port}")
-	private static String localhostPort;
+	@Value("${server.port:8081}")
+	private String localhostPort;
 
 	@Autowired
 	private OrderService orderService;
