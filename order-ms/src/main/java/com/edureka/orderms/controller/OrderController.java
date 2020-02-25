@@ -5,6 +5,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -27,6 +28,9 @@ import com.edureka.orderms.service.OrderService;
 @RequestMapping(path = "/orders")
 public class OrderController {
 
+	@Value("${server.port}")
+	private static String localhostPort;
+
 	@Autowired
 	private OrderService orderService;
 
@@ -39,7 +43,7 @@ public class OrderController {
 		
 		RestTemplate restObject = new RestTemplate();
 		return new ResponseEntity<>(
-		restObject.getForEntity("http://localhost:8081/actuator/health", Object.class).getBody() , HttpStatus.OK );
+		restObject.getForEntity("http://localhost:"+localhostPort+"/actuator/health", Object.class).getBody() , HttpStatus.OK );
 		
 	}
 	

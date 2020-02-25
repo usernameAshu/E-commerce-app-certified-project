@@ -36,7 +36,7 @@ public class Customer {
 	
 	@Column(name="First_Name")
 	@Pattern(regexp = "[^0-9]")
-	@NotNull(message = "First Name shouldn't be NULL")
+	@NotNull(message = "First Name shouldn't be NULL, shouldn't include digits")
 	private String firstName;
 	
 	@Column(name="Username")
