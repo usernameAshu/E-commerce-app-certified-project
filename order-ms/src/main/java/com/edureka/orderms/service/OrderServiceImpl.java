@@ -37,7 +37,7 @@ public class OrderServiceImpl implements OrderService {
 	 * READ by order id
 	 */
 	@Override
-	public ResponseEntity<OrderDetails> getOrderById(Long orderId) {
+	public ResponseEntity<OrderDetails> getOrderById(@Valid Long orderId) {
 		
 		LOGGER.info("Getting Customers by id from Database class");
 		if (orderRepository.findById(orderId).isPresent())

@@ -1,10 +1,13 @@
 package com.edureka.orderms.exception;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
@@ -13,8 +16,25 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @ControllerAdvice
 public class OrderAppExceptionHandler extends ResponseEntityExceptionHandler {
 
-	@ExceptionHandler(value = { Exception.class })
-	public ResponseEntity<Object> handleAnyException(Exception exc, WebRequest req) {
+	@Override
+	protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
+			HttpHeaders headers, HttpStatus status, WebRequest request) {
+	 
+		/*
+		 * Extracts error message and sends the response to Client
+		 */
+		
+		Map<String,String> exceptionMap = new HashMap<>();
+		ex.getBindingResult().getFieldErrors().forEach(  error -> { 
+			exceptionMap.put(error.getField() ,error.getDefaultMessage() );
+		}
+		);
+		
+		return  new ResponseEntity<>(exceptionMap, HttpStatus.BAD_REQUEST);
+	}
+	
+	@ExceptionHandler(value = { OrderNotFoundException.class })
+	public ResponseEntity<Object> handleAnyException(OrderNotFoundException exc, WebRequest req) {
 
 		String errorMessage = exc.getLocalizedMessage();
 
@@ -23,7 +43,7 @@ public class OrderAppExceptionHandler extends ResponseEntityExceptionHandler {
 
 		ErrorResponse errorResponse = new ErrorResponse(errorMessage, new Date());
 
-		return new ResponseEntity<>(errorResponse, new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR);
+		return new ResponseEntity<>(errorResponse, new HttpHeaders(), HttpStatus.NOT_FOUND);
 	}
 	
 	@ExceptionHandler(value = { NullPointerException.class })
@@ -40,8 +60,8 @@ public class OrderAppExceptionHandler extends ResponseEntityExceptionHandler {
 
 	}
 
-	@ExceptionHandler(value = { OrderNotFoundException.class })
-	public ResponseEntity<Object> handleAnyException(OrderNotFoundException exc, WebRequest req) {
+	@ExceptionHandler(value = { Exception.class })
+	public ResponseEntity<Object> handleAnyException(Exception exc, WebRequest req) {
 
 		String errorMessage = exc.getLocalizedMessage();
 
@@ -50,7 +70,8 @@ public class OrderAppExceptionHandler extends ResponseEntityExceptionHandler {
 
 		ErrorResponse errorResponse = new ErrorResponse(errorMessage, new Date());
 
-		return new ResponseEntity<>(errorResponse, new HttpHeaders(), HttpStatus.NOT_FOUND);
+		return new ResponseEntity<>(errorResponse, new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR);
 	}
+	
 
 }
